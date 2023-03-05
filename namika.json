@@ -1,0 +1,51 @@
+{
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "options": [
+          {
+            "value": "a",
+            "id": "a",
+            "label": "A) London"
+          },
+          {
+            "value": "b",
+            "id": "b",
+            "label": "B) Paris"
+          },
+          {
+            "value": "c",
+            "id": "c",
+            "label": "C) Rome"
+          }
+        ]
+      },
+      {
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+          {
+            "value": "a",
+            "id": "a",
+            "label": "A) Venus"
+          },
+          {
+            "value": "b",
+            "id": "b",
+            "label": "B) Jupiter"
+          },
+          {
+            "value": "c",
+            "id": "c",
+            "label": "C) Earth"
+          },
+          {
+            "value": "d",
+            "id": "d",
+            "label": "d) Saturn"
+          }
+        ]
+      }
+    ],
+    "answers": ["b", "b"]
+  }
+  
