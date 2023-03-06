@@ -3,7 +3,7 @@
   "items": [
     {
       "item": "Bragging Rights",
-      "description": "Show the others who\'s boss!",
+      "description": "Show the others who is boss!",
       "storefront": {
         "price": 15,
         "value": 10,
@@ -12,7 +12,7 @@
     },
     {
         "item": "Biggist Bird",
-        "description": "That\'s quite a few points!",
+        "description": "That is quite a few points!",
         "storefront": {
           "price": 50,
           "value": 25,
