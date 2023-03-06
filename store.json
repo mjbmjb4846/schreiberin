@@ -1,1 +1,24 @@
+{
 
+  "items": [
+    {
+      "item": "Bragging Rights",
+      "description": "Show the others who's boss!",
+      "storefront": {
+        "price": 15,
+        "value": 10,
+        "rarity": "common"
+      }
+    },
+    {
+        "item": "Biggist Bird",
+        "description": "That's quite a few points!",
+        "storefront": {
+          "price": 50,
+          "value": 25,
+          "rarity": "rare"
+        }
+      }
+  ]
+
+}
