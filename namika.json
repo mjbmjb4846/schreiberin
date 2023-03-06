@@ -54,110 +54,189 @@
         ]
       },
       {
-        "question": "",
-        "translation": "",
+        "question": "Die höchsten Gebäude Afrikas sind in der nähe von Nador. Was sind Sie?",
+        "translation": "Some of the tallest man-made structures in Africa are just outside of Nador. What are they?",
         "options": [
           {
             "value": "a",
             "id": "a",
-            "label": ""
+            "label": "Bäume"
           },
           {
             "value": "b",
             "id": "b",
-            "label": ""
+            "label": "Wolkenkratzer"
           },
           {
             "value": "c",
             "id": "c",
-            "label": ""
+            "label": "Radio Türme"
           },
           {
             "value": "d",
             "id": "d",
-            "label": ""
+            "label": "Häuser"
           }
         ]
       },
       {"heading": "Kennst Du Hanan?"},
       {
-        "question": "",
-        "translation": "",
+        "question": "In welchem Jahr wurde Namika geboren?",
+        "translation": "What year was Namika born?",
         "options": [
           {
             "value": "a",
             "id": "a",
-            "label": ""
+            "label": "1991"
           },
           {
             "value": "b",
             "id": "b",
-            "label": ""
+            "label": "1994"
           },
           {
             "value": "c",
             "id": "c",
-            "label": ""
+            "label": "1997"
           },
           {
             "value": "d",
             "id": "d",
-            "label": ""
+            "label": "2000"
           }
         ]
       },
       {
-        "question": "",
-        "translation": "",
+        "question": "Wie viele Musikvideos hat Namika gemacht?",
+        "translation": "How many music videos has Namika published?",
         "options": [
           {
             "value": "a",
             "id": "a",
-            "label": ""
+            "label": "4"
           },
           {
             "value": "b",
             "id": "b",
-            "label": ""
+            "label": "5"
           },
           {
             "value": "c",
             "id": "c",
-            "label": ""
+            "label": "6"
           },
           {
             "value": "d",
             "id": "d",
-            "label": ""
+            "label": "7"
           }
         ]
       },
       {
-        "question": "",
-        "translation": "",
+        "question": "Du kennst Namika, aber was bedeutet Hanan?",
+        "translation": "You know what Namika means, how about Hanan?",
         "options": [
           {
             "value": "a",
             "id": "a",
-            "label": ""
+            "label": "Schön / Attraktiv"
           },
           {
             "value": "b",
             "id": "b",
-            "label": ""
+            "label": "Musik / Aktiv"
           },
           {
             "value": "c",
             "id": "c",
-            "label": ""
+            "label": "Frieden / Freude"
           },
           {
             "value": "d",
             "id": "d",
-            "label": ""
+            "label": "Affektion / Mitleid"
+          }
+        ]
+      },
+      {"heading": "Leben in Deutschland"},
+      {
+        "question": "Welches der folgenden Dinge ist NICHT zwischen von Amerikanischen und Deutschen Leben?",
+        "translation": "which of the following is NOT different between American and German life?",
+        "options": [
+          {
+            "value": "a",
+            "id": "a",
+            "label": "Geld / Money"
+          },
+          {
+            "value": "b",
+            "id": "b",
+            "label": "Steckdosen / Power Outlets"
+          },
+          {
+            "value": "c",
+            "id": "c",
+            "label": "Handys / Cell Phones"
+          },
+          {
+            "value": "d",
+            "id": "d",
+            "label": "Spritpreise / Gas Prices"
+          }
+        ]
+      },
+      {
+        "question": "Was ist der beste Lebensmittel in Deutschland für Geld UND Qualität?",
+        "translation": "What is considered the best value grocery store in Germany?",
+        "options": [
+          {
+            "value": "a",
+            "id": "a",
+            "label": "Penny"
+          },
+          {
+            "value": "b",
+            "id": "b",
+            "label": "Aldi"
+          },
+          {
+            "value": "c",
+            "id": "c",
+            "label": "Lidl"
+          },
+          {
+            "value": "d",
+            "id": "d",
+            "label": "Netto"
+          }
+        ]
+      },
+      {
+        "question": "Will this work?",
+        "translation": "Come on, you don't need a translation for that!",
+        "options": [
+          {
+            "value": "a",
+            "id": "a",
+            "label": "Yes!"
+          },
+          {
+            "value": "b",
+            "id": "b",
+            "label": "Maybe?"
+          },
+          {
+            "value": "c",
+            "id": "c",
+            "label": "No."
+          },
+          {
+            "value": "d",
+            "id": "d",
+            "label": "Absolutely Not!"
           }
         ]
       }
     ],
-    "answers": ["b", "a", "c", "", "", ""]
+    "answers": ["b", "a", "c", "a", "d", "d", "c", "b", "a"]
   }
