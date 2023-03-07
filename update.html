@@ -1,5 +1,17 @@
 <!-- READY TO DOWNLOAD AN UPDATE FILE? JUST USE (CTRL + S) ON THIS PAGE! -->
 
+<!--         /OOOOO\     /OOOOO\         -->
+<!--        /O00000O|   |O00000O\        -->
+<!--        0000 |00\   /00| 0000        -->
+<!--        0000  O000-000O  0000        -->
+<!--        \000| \O00000O/ |000/        -->
+<!--         O000   \O0O/   000O         -->
+<!--         |000     -     000|         -->
+<!--         O000           000O         -->
+<!--        /000|           |000\        -->
+<!--        000O             O000        -->
+<!--        \OO/             \OO/        -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -165,6 +177,7 @@
         position: fixed;
         top: 20px;
         right: 15%;
+        padding: 5px;
         color: lavender;
         border: 5px solid black;
         background-color: orange;
@@ -203,18 +216,17 @@
         height: 100%;
       }
       .shopItem {
-        border: 5px solid orange;
+        padding: 5px;
+        border: 0px;
         background: orange;
         color: lavender;
         cursor: pointer;
         text-align: center;
+        border-radius: 10px;
       }
       .shopItem:hover {
         color: white;
-        text-align: center;
-        border: 5px solid gold;
         background: gold;
-        border-radius: 10px;
       }
     </style>
 
@@ -267,6 +279,7 @@
     </div>
 
     <script>
+      var currentVersion = [1,0,0,0]
       var correctAnswers = [];
       var total = 0;
       var preset = ['https://raw.githubusercontent.com/mjbmjb4846/schreiberin/main/'];
@@ -284,6 +297,7 @@
           update();
         })
         .catch(error => console.error(error));
+        version();
       }
       
       function update() {
@@ -295,6 +309,26 @@
           scoreboard.textContent = `U Broke`;
         }
         
+      }
+
+      function version() {
+        fetch(`${preset[0]}version.json`)
+            .then(response => response.json())
+            .then(data => {
+              if (`${data.version[0]}.${data.version[1]}` === `${currentVersion[0]}.${currentVersion[1]}`) {
+                console.log('up to date!')
+              } else {
+                if (confirm("A new version is out! Get the new file?")) {
+                  var updator = document.createElement('a');
+                  updator.href = `${preset[0]}update.html`;
+                  updator.download = 'schreiberin.html';
+                  document.body.appendChild(updator);
+                  updator.click();
+                  document.body.removeChild(updator);
+                }
+              }
+            })
+            .catch(error => console.error(error));
       }
 
       function checkAnswers() {
