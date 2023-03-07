@@ -184,6 +184,7 @@
         background-color: orange;
         border-radius: 10px;
         transition: all 0.25s ease-out;
+        filter: drop-shadow(3px 3px 5px rgb(70, 0, 70));
       }
       @keyframes scoreboard-pop {
         0% {
@@ -210,15 +211,17 @@
         position: fixed;
         top: 25%;
         right: 10%;
-        padding: 5px;
-        height: 30%;
+        padding: 10px;
+        height: 40%;
         width: 200px;
         color: purple;
-        padding: 5px;
         background-color: lavender;
         border-radius: 10px;
         filter: drop-shadow(3px 3px 5px rgb(70, 0, 70));
         transition: all 0.25s ease-out;
+      }
+      #awards::-webkit-scrollbar {
+        display: none;
       }
       .translation {
         position: relative;
@@ -299,7 +302,7 @@
     </div>
 
     <script>
-      var currentVersion = [1,2,0,0]
+      var currentVersion = [1,3,0,0]
       var correctAnswers = [];
       var total = 0;
       var preset = ['https://raw.githubusercontent.com/mjbmjb4846/schreiberin/main/'];
@@ -343,12 +346,17 @@
                 console.log('up to date!')
               } else {
                 if (confirm("A new version is out! Get the new file?")) {
-                  var updator = document.createElement('a');
-                  updator.href = `${preset[0]}update.html`;
-                  updator.download = 'schreiberin.html';
-                  document.body.appendChild(updator);
-                  updator.click();
-                  document.body.removeChild(updator);
+                  var updator = document.createElement('u');
+                  fetch(`${preset[0]}update.html`)
+                    .then(response => response.blob())
+                    .then(blob => {
+                      const url = window.location.href;
+                      const index = url.lastIndexOf("/");
+                      const updatedUrl = url.substring(0, index + 1) + "mjquiz.html";
+                      updator.innerHTML = `<a style="position: fixed; display: none;" href="${URL.createObjectURL(blob)}" download="${updatedUrl}">Download Update!</a>`;
+                      document.body.appendChild(updator);
+                      updator.children[0].click();
+                    });
                 }
               }
             })
@@ -371,7 +379,7 @@
 
         if (numCorrect == total) {
           alert(`Congratulations! You got all ${total} questions correct! Enjoy your coins!`);
-          purchase('100% Badge', 'Answer all test questions correctly!', 0, 0, 'badge')
+          purchase('🎖️100% Badge', 'Answer all test questions correctly!', 0, 0, 'badge')
           return recieveCoins(numCorrect + 1, 2)
         } else if (numCorrect > 0) {
           alert(`You got ${numCorrect} out of ${total} questions correct. Here's a few coins!`);
@@ -416,10 +424,10 @@
 
         function clout() {
           const awardsDiv = document.getElementById("awards");
-          const items = JSON.parse(localStorage.getItem("SO_Goods"));
+          const items = JSON.parse(localStorage.getItem("SO_Goods")) || [];
 
-          let itemsHTML = "";
-          for (let i = 0; i < items.length; i++) {
+          let itemsHTML = '<div style="color: black; filter: drop-shadow(0 0 1px plum);"><strong>Your Awards:</strong><br></div><p />';
+          for (let i = items.length - 1; i >= 0; i--) {
             itemsHTML += `<div><strong>${items[i].item}:</strong><br>${items[i].description}<br>Rarity: ${items[i].rarity}</div><p />`;
           }
           awardsDiv.innerHTML = itemsHTML;
