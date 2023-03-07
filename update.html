@@ -175,9 +175,10 @@
         font-family: 'Secular One', sans-serif;
         font-size: 40px;
         position: fixed;
-        top: 20px;
-        right: 15%;
+        top: 10%;
+        right: 10%;
         padding: 5px;
+        width: 200px;
         color: lavender;
         border: 5px solid black;
         background-color: orange;
@@ -201,6 +202,23 @@
       }
       #scoreboard:hover {
         transform: rotate(5deg) scale(105%);
+      }
+      #awards {
+        font-family: 'Secular One', sans-serif;
+        overflow: auto;
+        font-size: 20px;
+        position: fixed;
+        top: 25%;
+        right: 10%;
+        padding: 5px;
+        height: 30%;
+        width: 200px;
+        color: purple;
+        padding: 5px;
+        background-color: lavender;
+        border-radius: 10px;
+        filter: drop-shadow(3px 3px 5px rgb(70, 0, 70));
+        transition: all 0.25s ease-out;
       }
       .translation {
         position: relative;
@@ -261,6 +279,8 @@
 
     <div id="scoreboard"></div>
 
+    <div id="awards"></div>
+
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3" width="165" height="120" id="flag">
       <rect width="5" height="3" fill="black"/>
       <rect width="5" height="2" fill="orange"/>
@@ -279,7 +299,7 @@
     </div>
 
     <script>
-      var currentVersion = [1,1,0,0]
+      var currentVersion = [1,2,0,0]
       var correctAnswers = [];
       var total = 0;
       var preset = ['https://raw.githubusercontent.com/mjbmjb4846/schreiberin/main/'];
@@ -308,7 +328,7 @@
         } else {
           scoreboard.textContent = `U Broke`;
         }
-        
+        clout();
       }
 
       function loadQuiz() {
@@ -392,6 +412,19 @@
               container.innerHTML = shopHTML;
             })
             .catch(error => console.error(error));            
+        }
+
+        function clout() {
+          const awardsDiv = document.getElementById("awards");
+          const items = JSON.parse(localStorage.getItem("SO_Goods"));
+
+          let itemsHTML = "";
+          for (let i = 0; i < items.length; i++) {
+            itemsHTML += `<div><strong>${items[i].item}:</strong><br>${items[i].description}<br>Rarity: ${items[i].rarity}</div><p />`;
+          }
+          awardsDiv.innerHTML = itemsHTML;
+          awardsDiv.classList.add("scrolling-div");
+
         }
 
         function purchase(item, description, cost, value, rarity) {
