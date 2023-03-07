@@ -1,24 +1,40 @@
 {
-
-  "items": [
-    {
-      "item": "Bragging Rights",
-      "description": "Show the others who is boss!",
-      "storefront": {
-        "price": 15,
-        "value": 10,
-        "rarity": "common"
-      }
-    },
-    {
-        "item": "Biggist Bird",
-        "description": "That is quite a few points!",
+    "items": [
+      {
+        "item": "🪙8-bit Coin",
+        "description": "00100100",
         "storefront": {
-          "price": 50,
-          "value": 25,
-          "rarity": "rare"
+            "price": 8,
+            "value": 8,
+            "rarity": "common"
         }
-      }
-  ]
-
+      },
+      {
+        "item": "📜Bragging Right",
+        "description": "Show the others who is boss!",
+        "storefront": {
+          "price": 15,
+          "value": 10,
+          "rarity": "common"
+        }
+      },
+      {
+          "item": "🐦Biggist Bird",
+          "description": "That is quite a few points!",
+          "storefront": {
+            "price": 50,
+            "value": 25,
+            "rarity": "rare"
+          }
+        },
+        {
+            "item": "😎Deutsch Xtrem!",
+            "description": "That is quite a few points!",
+            "storefront": {
+              "price": 50,
+              "value": 25,
+              "rarity": "rare"
+            }
+          }
+    ]
 }
