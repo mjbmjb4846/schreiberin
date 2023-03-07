@@ -274,12 +274,12 @@
     </div>
 
     <div id="ads">
-      <button id="miniSubmit" onclick="checkAnswers()"><ion-icon name="game-controller-outline" id="loadI" class="pinglo"></ion-icon></button>
+      <button id="miniSubmit" onclick="loadQuiz()"><ion-icon name="game-controller-outline" id="loadI" class="pinglo"></ion-icon></button>
       <button id="miniSubmit" onclick="storeMenu('namika')"><ion-icon name="logo-euro" class="pinglo"></ion-icon></button>
     </div>
 
     <script>
-      var currentVersion = [1,0,1,0]
+      var currentVersion = [1,1,0,0]
       var correctAnswers = [];
       var total = 0;
       var preset = ['https://raw.githubusercontent.com/mjbmjb4846/schreiberin/main/'];
@@ -309,6 +309,10 @@
           scoreboard.textContent = `U Broke`;
         }
         
+      }
+
+      function loadQuiz() {
+        writeQuiz(prompt('Please enter the name of the quiz you want to load!', 'namika'));
       }
 
       function version() {
