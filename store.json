@@ -2,7 +2,7 @@
     "items": [
         {
           "item": "🐻‍❄️Gummibär",
-          "description": "but... it's... online?",
+          "description": "but... it... online?",
           "storefront": {
             "price": 5,
             "value": 0,
@@ -34,6 +34,15 @@
           "price": 20,
           "value": 10,
           "rarity": "uncommon"
+        }
+      },
+      {
+        "item": "🥇OG Player",
+        "description": "A stylish piece to add to your collection",
+        "storefront": {
+          "price": 25,
+          "value": 25,
+          "rarity": "rare"
         }
       },
       {
