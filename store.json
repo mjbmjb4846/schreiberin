@@ -2,7 +2,7 @@
     "items": [
         {
           "item": "🐻‍❄️Gummibär",
-          "description": "but... it... online?",
+          "description": "but... it‘s... online?",
           "storefront": {
             "price": 5,
             "value": 0,
@@ -20,7 +20,7 @@
       },
       {
         "item": "📜Bragging Right",
-        "description": "Show the others who is boss!",
+        "description": "Show the others who‘s boss!",
         "storefront": {
           "price": 15,
           "value": 10,
