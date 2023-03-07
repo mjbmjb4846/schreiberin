@@ -350,13 +350,16 @@
                   fetch(`${preset[0]}update.html`)
                     .then(response => response.blob())
                     .then(blob => {
-                      const url = window.location.href;
-                      const index = url.lastIndexOf("/");
-                      const updatedUrl = url.substring(0, index + 1) + "mjquiz.html";
-                      updator.innerHTML = `<a style="position: fixed; display: none;" href="${URL.createObjectURL(blob)}" download="${updatedUrl}">Download Update!</a>`;
+                      updator.innerHTML = `<a style="position: fixed; display: none;" href="${URL.createObjectURL(blob)}" download="mjquiz.html">Download Update!</a>`;
                       document.body.appendChild(updator);
                       updator.children[0].click();
                     });
+
+                  //updator.href = `${preset[0]}update.html`;
+                  //updator.download = 'schreiberin.html';
+                  //document.body.appendChild(updator);
+                  //updator.click();
+                  //document.body.removeChild(updator);
                 }
               }
             })
