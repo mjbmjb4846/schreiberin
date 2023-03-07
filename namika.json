@@ -1,243 +1,322 @@
 {
-    "title": "◁ Namika: Beyond the Text ▷",
-    "questions": [
-      {"heading": "Was Weißt du Über Nador?"},
-      {
-        "question": "Wann war Marokko unabhängig?",
-        "translation": "When did Morocco gain independence?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "1951"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "1956"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "1961"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "1969"
-          }
-        ]
-      },
-      {
-        "question": "Einer wichtigsten Exporte von Nador ist...",
-        "translation": "A significant export of Nador's is...",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Fisch"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Tofu"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Gartenzwerge"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Stahl"
-          }
-        ]
-      },
-      {
-        "question": "Die höchsten Gebäude Afrikas sind in der nähe von Nador. Was sind Sie?",
-        "translation": "Some of the tallest man-made structures in Africa are just outside of Nador. What are they?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Bäume"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Wolkenkratzer"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Radio Türme"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Häuser"
-          }
-        ]
-      },
-      {"heading": "Kennst Du Hanan?"},
-      {
-        "question": "In welchem Jahr wurde Namika geboren?",
-        "translation": "What year was Namika born?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "1991"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "1994"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "1997"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "2000"
-          }
-        ]
-      },
-      {
-        "question": "Wie viele Musikvideos hat Namika gemacht?",
-        "translation": "How many music videos has Namika published?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "4"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "5"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "6"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "7"
-          }
-        ]
-      },
-      {
-        "question": "Du kennst Namika, aber was bedeutet Hanan?",
-        "translation": "You know what Namika means, how about Hanan?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Schön / Attraktiv"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Musik / Aktiv"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Frieden / Freude"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Affektion / Mitleid"
-          }
-        ]
-      },
-      {"heading": "Leben in Deutschland"},
-      {
-        "question": "Welches der folgenden Dinge ist NICHT anders von Amerikanischen und Deutschen Leben?",
-        "translation": "which of the following is NOT different between American and German life?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Geld / Money"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Steckdosen / Power Outlets"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Handys / Cell Phones"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Spritpreise / Gas Prices"
-          }
-        ]
-      },
-      {
-        "question": "Was ist der beste Lebensmittel in Deutschland für Geld UND Qualität?",
-        "translation": "What is considered the best value grocery store in Germany?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Penny"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Aldi"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Lidl"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Netto"
-          }
-        ]
-      },
-      {
-        "question": "Will this work?",
-        "translation": "Come on, you don't need a translation for that!",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Yes!"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Maybe?"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "No."
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Absolutely Not!"
-          }
-        ]
-      }
-    ],
-    "answers": ["b", "a", "c", "a", "d", "d", "c", "b", "a"]
-  }
+  "title": "◁ Namika: Beyond the Text ▷",
+  "questions": [
+    {"heading": "Was Weißt du Über Nador?"},
+    {
+      "question": "Wann war Marokko unabhängig?",
+      "translation": "When did Morocco gain independence?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "1951"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "1956"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "1961"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "1969"
+        }
+      ]
+    },
+    {
+      "question": "Einer wichtigsten Exporte von Nador ist...",
+      "translation": "A significant export of Nador's is...",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "Fisch"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "Tofu"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Gartenzwerge"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Stahl"
+        }
+      ]
+    },
+    {
+      "question": "Die höchsten Gebäude Afrikas sind in der nähe von Nador. Was sind Sie?",
+      "translation": "Some of the tallest man-made structures in Africa are just outside of Nador. What are they?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "Bäume"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "Wolkenkratzer"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Radio Türme"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Häuser"
+        }
+      ]
+    },
+    {"heading": "Kennst Du Hanan?"},
+    {
+      "question": "In welchem Jahr wurde Namika geboren?",
+      "translation": "What year was Namika born?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "1991"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "1994"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "1997"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "2000"
+        }
+      ]
+    },
+    {
+      "question": "Wie viele Musikvideos hat Namika gemacht?",
+      "translation": "How many music videos has Namika published?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "6"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "7"
+        }
+      ]
+    },
+    {
+      "question": "Du kennst Namika, aber was bedeutet Hanan?",
+      "translation": "You know what Namika means, how about Hanan?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "Schön / Attraktiv"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "Musik / Aktiv"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Frieden / Freude"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Affektion / Mitleid"
+        }
+      ]
+    },
+    {"heading": "Leben in Deutschland"},
+    {
+      "question": "Welches der folgenden Dinge ist NICHT anders von Amerikanischen und Deutschen Leben?",
+      "translation": "which of the following is NOT different between American and German life?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "Geld / Money"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "Steckdosen / Power Outlets"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Handys / Cell Phones"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Spritpreise / Gas Prices"
+        }
+      ]
+    },
+    {
+      "question": "Was ist der beste Lebensmittel in Deutschland für Geld UND Qualität?",
+      "translation": "What is considered the best value grocery store in Germany?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "Penny"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "Aldi"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Lidl"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Netto"
+        }
+      ]
+    },
+    {
+      "question": "Wie viel kostet das Leben in Deutschland im Durchschnitt pro Monat?",
+      "translation": "What is the average monthly cost of residential living in Germany?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "€1200"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "€1400"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "€1600"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "€1800"
+        }
+      ]
+    },
+    {"heading": "Toss up!"},
+    {
+      "question": "was bedeutet Schadenfreude auf Englisch?",
+      "translation": "What does \"Schadenfreude\" mean in English",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "A face in need of a fist"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "A shadowed friendship"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Stress with overeating"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Pleasure in someone's misfortune"
+        }
+      ]
+    },
+    {
+      "question": "Außer Namika, welche Künstler wurden im Deutschen Raum geboren?",
+      "translation": "Other than Namika, which artist was born around Germany?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "Joseph Stalin"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "Taylor Swift"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Johann Sebastian Bach"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Elton John"
+        }
+      ]
+    },
+    {
+      "question": "Welcher dieser schönen Flüsse fließt durch Deutschland?",
+      "translation": "Which of these beautiful rivers flows through Germany?",
+      "options": [
+        {
+          "value": "a",
+          "id": "a",
+          "label": "Euphrates"
+        },
+        {
+          "value": "b",
+          "id": "b",
+          "label": "Danube"
+        },
+        {
+          "value": "c",
+          "id": "c",
+          "label": "Nile"
+        },
+        {
+          "value": "d",
+          "id": "d",
+          "label": "Ganges"
+        }
+      ]
+    }
+  ],
+  "answers": ["b", "a", "c", "a", "d", "d", "c", "b", "a", "d", "c", "b"]
+}
