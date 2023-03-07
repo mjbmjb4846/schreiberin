@@ -1,243 +1,535 @@
-{
-    "title": "◁ Namika: Beyond the Text ▷",
-    "questions": [
-      {"heading": "Was Weißt du Über Nador?"},
-      {
-        "question": "Wann war Marokko unabhängig?",
-        "translation": "When did Morocco gain independence?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "1951"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "1956"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "1961"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "1969"
-          }
-        ]
-      },
-      {
-        "question": "Einer wichtigsten Exporte von Nador ist...",
-        "translation": "A significant export of Nador's is...",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Fisch"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Tofu"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Gartenzwerge"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Stahl"
-          }
-        ]
-      },
-      {
-        "question": "Die höchsten Gebäude Afrikas sind in der nähe von Nador. Was sind Sie?",
-        "translation": "Some of the tallest man-made structures in Africa are just outside of Nador. What are they?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Bäume"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Wolkenkratzer"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Radio Türme"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Häuser"
-          }
-        ]
-      },
-      {"heading": "Kennst Du Hanan?"},
-      {
-        "question": "In welchem Jahr wurde Namika geboren?",
-        "translation": "What year was Namika born?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "1991"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "1994"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "1997"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "2000"
-          }
-        ]
-      },
-      {
-        "question": "Wie viele Musikvideos hat Namika gemacht?",
-        "translation": "How many music videos has Namika published?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "4"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "5"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "6"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "7"
-          }
-        ]
-      },
-      {
-        "question": "Du kennst Namika, aber was bedeutet Hanan?",
-        "translation": "You know what Namika means, how about Hanan?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Schön / Attraktiv"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Musik / Aktiv"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Frieden / Freude"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Affektion / Mitleid"
-          }
-        ]
-      },
-      {"heading": "Leben in Deutschland"},
-      {
-        "question": "Welches der folgenden Dinge ist NICHT anders von Amerikanischen und Deutschen Leben?",
-        "translation": "which of the following is NOT different between American and German life?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Geld / Money"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Steckdosen / Power Outlets"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Handys / Cell Phones"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Spritpreise / Gas Prices"
-          }
-        ]
-      },
-      {
-        "question": "Was ist der beste Lebensmittel in Deutschland für Geld UND Qualität?",
-        "translation": "What is considered the best value grocery store in Germany?",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Penny"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Aldi"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "Lidl"
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Netto"
-          }
-        ]
-      },
-      {
-        "question": "Will this work?",
-        "translation": "Come on, you don't need a translation for that!",
-        "options": [
-          {
-            "value": "a",
-            "id": "a",
-            "label": "Yes!"
-          },
-          {
-            "value": "b",
-            "id": "b",
-            "label": "Maybe?"
-          },
-          {
-            "value": "c",
-            "id": "c",
-            "label": "No."
-          },
-          {
-            "value": "d",
-            "id": "d",
-            "label": "Absolutely Not!"
-          }
-        ]
+<!-- READY TO DOWNLOAD AN UPDATE FILE? JUST USE (CTRL + S) ON THIS PAGE! -->
+
+<!--         /OOOOO\     /OOOOO\         -->
+<!--        /O00000O|   |O00000O\        -->
+<!--        0000 |00\   /00| 0000        -->
+<!--        0000  O000-000O  0000        -->
+<!--        \000| \O00000O/ |000/        -->
+<!--         O000   \O0O/   000O         -->
+<!--         |000     -     000|         -->
+<!--         O000           000O         -->
+<!--        /000|           |000\        -->
+<!--        000O             O000        -->
+<!--        \OO/             \OO/        -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Namika quiz</title>
+    <style>
+      body {
+        background-color: purple;
+        color: lavender;
+        font-family: Arial, sans-serif;
       }
-    ],
-    "answers": ["b", "a", "c", "a", "d", "d", "c", "b", "a"]
-  }
+      h1 {
+        font-family: 'Secular One', sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      h1.heading {
+        color: white;
+        filter: drop-shadow(0 0 2px gold);
+      }
+      #quiz {
+        margin: 50px auto;
+        width: 500px;
+        padding: 20px;
+        background-color: orange;
+        border-radius: 10px;
+        filter: drop-shadow(3px 3px 5px rgb(70, 0, 70));
+      }
+      #quiz h2 {
+        margin-top: 0;
+      }
+      #quiz p {
+        margin: 10px 0;
+      }
+      #quiz input[type="radio"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: lavender;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 2px;
+        font-family: 'Secular One', sans-serif;
+        cursor: pointer;
+      }
+      input[type="radio"]::before {
+        content: attr(value);
+        position: absolute;
+        top: -2px;
+        left: 4px;
+      }
+      #quiz input[type="radio"]:checked {
+        background-color: purple;
+      }
+      #quiz input[type="radio"]:checked::before {
+        content: "✓";
+        position: absolute;
+        top: 0px;
+        left: 2px;
+        font-size: 12px;
+        color: orange;
+      }
+      #submit {
+        display: block;
+        font-family: 'Secular One', sans-serif;
+        font-size: 20px;
+        margin: 20px auto;
+        padding: 10px 20px;
+        color: lavender;
+        border: 5px solid lavender;
+        background-color: purple;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+      #submit:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 5px gold);
+      }
+      #diamond {
+        font-size: 36px;
+        position: fixed;
+        top: 50%;
+        right: 50%;
+        color: white;
+        transition: all 0.5s ease;
+        opacity: 0;
+        filter: drop-shadow(0 0 5px skyblue);
+      }
+      @keyframes coin-animation {
+        0% {
+          transform: translate(0px, 0px) rotate(0deg);
+          opacity: 1;
+        }
+        5%{
+          transform: rotate(-10deg)
+        }
+        10% {
+          transform: rotate(10deg);
+        }
+        15%{
+          transform: rotate(-10deg)
+        }
+        20% {
+          transform: rotate(10deg);
+        }
+        25% {
+          transform: rotate(-10deg);
+        }
+        30% {
+          transform: rotate(10deg);
+          opacity: 1;
+        }
+        100% {
+          transform: translate(700px, -500px) rotate(0deg);
+          opacity: 0;
+        }
+      }
+      #diamond.coin-animation {
+        animation: coin-animation 2s;
+        animation-fill-mode: forwards;
+      }
+      #logos {
+        font-size: 40px;
+        color: lavender;
+        position: fixed;
+        bottom: 0px;
+        left: 10px;
+        cursor: pointer;
+      }
+      .oraglo:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 5px orange);
+      }
+      #flag {
+        position: fixed;
+        bottom: -30px;
+        right: -35px;
+      }
+      #ads {
+        font-size: 40px;
+        color: black;
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+        cursor: pointer;
+      }
+      .pinglo:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 5px white);
+      }
+      #miniSubmit {
+        border: none;
+        background: none;
+        font-size: 40px;
+      }
+      #scoreboard {
+        font-family: 'Secular One', sans-serif;
+        font-size: 40px;
+        position: fixed;
+        top: 10%;
+        right: 10%;
+        padding: 5px;
+        width: 200px;
+        color: lavender;
+        border: 5px solid black;
+        background-color: orange;
+        border-radius: 10px;
+        transition: all 0.25s ease-out;
+      }
+      @keyframes scoreboard-pop {
+        0% {
+          transform: scale(100%);
+        }
+        60% {
+          transform: scale(120%);
+        }
+        100% {
+          transform: scale(100%);
+        }
+      }
+      #scoreboard.scoreboard-pop {
+        animation: scoreboard-pop 250ms;
+        animation-fill-mode: forwards;
+      }
+      #scoreboard:hover {
+        transform: rotate(5deg) scale(105%);
+      }
+      #awards {
+        font-family: 'Secular One', sans-serif;
+        overflow: auto;
+        font-size: 20px;
+        position: fixed;
+        top: 25%;
+        right: 10%;
+        padding: 5px;
+        height: 30%;
+        width: 200px;
+        color: purple;
+        padding: 5px;
+        background-color: lavender;
+        border-radius: 10px;
+        filter: drop-shadow(3px 3px 5px rgb(70, 0, 70));
+        transition: all 0.25s ease-out;
+      }
+      .translation {
+        position: relative;
+        top: -5px;
+        color: purple;
+        font-weight: bold;
+        opacity: 0;
+        transition: all 0.25s ease;
+      }
+      .translation:hover {
+        transform: scale(102%);
+        opacity: 100;
+        height: 100%;
+      }
+      .shopItem {
+        padding: 5px;
+        border: 0px;
+        background: orange;
+        color: lavender;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10px;
+      }
+      .shopItem:hover {
+        color: white;
+        background: gold;
+      }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <h1 id="title">◁ Namika: Beyond the Text ▷</h1>
+
+    <div id="quiz">
+      <h2>Question 1</h2>
+      <p>Unable to load quiz ): Check your connection.</p>
+      <input type="radio" name="q1" value="b" id="q1b" />
+      <label for="q1a">Hmmm</label>
+      <br />
+      <input type="radio" name="q1" value="a" id="q1a" />
+      <label for="q1b">Sad</label>
+      <br />
+      <input type="radio" name="q1" value="d" id="q1d" />
+      <label for="q1c">Good</label>
+
+      <input type="button" value="Submit ▷" id="submit" onclick="checkAnswers()" />
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <ion-icon name="diamond-outline" id="diamond"></ion-icon>
+
+    <div id="scoreboard"></div>
+
+    <div id="awards"></div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3" width="165" height="120" id="flag">
+      <rect width="5" height="3" fill="black"/>
+      <rect width="5" height="2" fill="orange"/>
+      <rect width="5" height="1" fill="red"/>
+    </svg>
+
+    <div id="logos">
+      <a title="HTML" href="https://elhssoc.com" style="text-decoration: none; color: inherit;"><ion-icon name="logo-html5" title="HTML" class="oraglo"></ion-icon></a>
+      <a title="CSS" href="https://elhssoc.com" style="text-decoration: none; color: inherit;"><ion-icon name="logo-css3" title="CSS" class="oraglo"></ion-icon></a>
+      <a title="JavaScript" href="https://elhssoc.com" style="text-decoration: none; color: inherit;"><ion-icon name="logo-javascript" title="JavaScript" class="oraglo"></ion-icon></a> 
+    </div>
+
+    <div id="ads">
+      <button id="miniSubmit" onclick="loadQuiz()"><ion-icon name="game-controller-outline" id="loadI" class="pinglo"></ion-icon></button>
+      <button id="miniSubmit" onclick="storeMenu('namika')"><ion-icon name="logo-euro" class="pinglo"></ion-icon></button>
+    </div>
+
+    <script>
+      var currentVersion = [1,2,0,0]
+      var correctAnswers = [];
+      var total = 0;
+      var preset = ['https://raw.githubusercontent.com/mjbmjb4846/schreiberin/main/'];
+
+      window.onload = initiate();
+
+      function initiate() {
+        correctAnswers = ["a"];
+        fetch(`${preset[0]}preset.json`)
+        .then(response => response.json())
+        .then(data => {
+          preset = preset.concat([data.quiz, data.store, data.script]);
+
+          writeQuiz(preset[1]);
+          update();
+        })
+        .catch(error => console.error(error));
+        version();
+      }
+      
+      function update() {
+        const scoreboard = document.getElementById('scoreboard');
+        const coins = localStorage.getItem('SO_Coins');
+        if (coins) {
+          scoreboard.textContent = `Coins: ${coins}`;
+        } else {
+          scoreboard.textContent = `U Broke`;
+        }
+        clout();
+      }
+
+      function loadQuiz() {
+        writeQuiz(prompt('Please enter the name of the quiz you want to load!', 'namika'));
+      }
+
+      function version() {
+        fetch(`${preset[0]}version.json`)
+            .then(response => response.json())
+            .then(data => {
+              if (`${data.version[0]}.${data.version[1]}` === `${currentVersion[0]}.${currentVersion[1]}`) {
+                console.log('up to date!')
+              } else {
+                if (confirm("A new version is out! Get the new file?")) {
+                  var updator = document.createElement('a');
+                  updator.href = `${preset[0]}update.html`;
+                  updator.download = 'schreiberin.html';
+                  document.body.appendChild(updator);
+                  updator.click();
+                  document.body.removeChild(updator);
+                }
+              }
+            })
+            .catch(error => console.error(error));
+      }
+
+      function checkAnswers() {
+        total = correctAnswers.length
+        var numCorrect = 0;
+
+        for (var i = 1; i <= total; i++) {
+          var radios = document.getElementsByName(`q${i}`);
+          for (var j = 0; j < radios.length; j++) {
+            var radio = radios[j];
+            if (radio.value == correctAnswers[i - 1] && radio.checked) {
+              numCorrect++;
+            }
+          }
+        }
+
+        if (numCorrect == total) {
+          alert(`Congratulations! You got all ${total} questions correct! Enjoy your coins!`);
+          purchase('100% Badge', 'Answer all test questions correctly!', 0, 0, 'badge')
+          return recieveCoins(numCorrect + 1, 2)
+        } else if (numCorrect > 0) {
+          alert(`You got ${numCorrect} out of ${total} questions correct. Here's a few coins!`);
+          return recieveCoins(numCorrect, 2);
+        } else {
+          return alert("Sorry! You didn't score any points! Try again!")
+        }
+
+        }
+
+        function recieveCoins(payment, multiplier) {
+          var coins = parseInt(localStorage.getItem("SO_Coins")) || 0;
+          coins += payment * multiplier;
+          localStorage.setItem("SO_Coins", coins);
+          animateIcon();
+          radioReset();
+        }
+
+        function storeMenu(backOption) {
+          fetch(`${preset[0]}${preset[2] || 'store'}.json`)
+            .then(response => response.json())
+            .then(data => {
+
+              const container = document.getElementById("quiz");
+              let shopHTML = ""
+
+              data.items.forEach(field => {
+
+                shopHTML += `<button class="shopItem" onclick="purchase('${field.item}', '${field.description}', '${field.storefront.price}', '${field.storefront.value}', '${field.storefront.rarity}')">
+<h2>${field.storefront.price} Coins:</h2>
+<h2>${field.item}</h2>
+<p>(${field.description})</p>
+</button>
+<br />
+`;
+              })
+              shopHTML += `<input type="button" value="◁ Back" id="submit" onclick="writeQuiz('${backOption}')"/>`;
+              container.innerHTML = shopHTML;
+            })
+            .catch(error => console.error(error));            
+        }
+
+        function clout() {
+          const awardsDiv = document.getElementById("awards");
+          const items = JSON.parse(localStorage.getItem("SO_Goods"));
+
+          let itemsHTML = "";
+          for (let i = 0; i < items.length; i++) {
+            itemsHTML += `<div><strong>${items[i].item}:</strong><br>${items[i].description}<br>Rarity: ${items[i].rarity}</div><p />`;
+          }
+          awardsDiv.innerHTML = itemsHTML;
+          awardsDiv.classList.add("scrolling-div");
+
+        }
+
+        function purchase(item, description, cost, value, rarity) {
+          var coins = parseInt(localStorage.getItem("SO_Coins")) || 0;
+          if (coins < cost) {
+            return alert("You Don't have enough money for this!");
+          }
+          var goods = JSON.parse(localStorage.getItem("SO_Goods")) || [];
+          goods.push({ item, description, cost, value, rarity });
+          localStorage.setItem("SO_Goods", JSON.stringify(goods));
+          coins -= cost;
+          localStorage.setItem("SO_Coins", coins);
+          update()
+        }
+
+        function animateIcon() {
+          document.getElementById("diamond").classList.add('coin-animation');
+          setTimeout(() => {
+            document.getElementById("diamond").classList.remove('coin-animation');
+            update();
+            document.getElementById("scoreboard").classList.add('scoreboard-pop');
+            setTimeout(() => {
+              document.getElementById("scoreboard").classList.remove('scoreboard-pop');
+            }, 250)
+          }, 1100);
+        }
+
+        function radioReset() {
+          document.querySelectorAll('#quiz input[type="radio"]').forEach(element => {
+            element.checked = false;
+          });
+        }
+
+        function writeQuiz(quiz) {
+          fetch(`${preset[0]}${quiz || preset[1] || 'namika'}.json`)
+            .then(response => response.json())
+            .then(data => {
+              const titleContainer = document.getElementById("title");
+              const quizContainer = document.getElementById("quiz");
+              let quizHTML = "";
+
+              correctAnswers = data.answers;
+              titleContainer.innerHTML = data.title || "Beyond the Text!";
+
+              let counterA = 0
+
+              data.questions.forEach(question => {
+                if (question.heading) {
+                  return quizHTML += `<h1 class="heading">${question.heading}</h1>`;
+                } else {
+                  counterA ++;
+                }
+                quizHTML += `
+<h2>Question ${counterA}</h2>
+<p>${question.question}</p>
+<div class="translation">${question.translation}</div>
+`;
+                question.options?.forEach(option => {
+                  quizHTML += `
+<input type="radio" name="q${counterA}" value="${option.value}" id="q${counterA}${option.id}" />
+<label for="q${counterA}${option.id}">${option.label}</label>
+<br />
+`;
+                });
+                quizHTML += '<p />'
+              });
+            
+              quizHTML += `
+                <input type="button" value="Submit ▷" id="submit" onclick="checkAnswers()" />
+              `;
+            
+              quizContainer.innerHTML = quizHTML;
+            })
+            .catch(error => console.error(error));
+        }
+
+/*      ---- JSON FORMAT (CTRL+C => CTRL+V) ----
+{
+        "question": "",
+        "translation": "",
+        "options": [
+          {
+            "value": "a",
+            "id": "a",
+            "label": ""
+          },
+          {
+            "value": "b",
+            "id": "b",
+            "label": ""
+          },
+          {
+            "value": "c",
+            "id": "c",
+            "label": ""
+          },
+          {
+            "value": "d",
+            "id": "d",
+            "label": ""
+          }
+        ]
+      },
+*/
+
+    </script>
+  </body>
+</html>
