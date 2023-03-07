@@ -1,16 +1,16 @@
 <!-- READY TO DOWNLOAD AN UPDATE FILE? JUST USE (CTRL + S) ON THIS PAGE! -->
 
-<!--         /OOOOO\     /OOOOO\         -->
-<!--        /O00000O|   |O00000O\        -->
-<!--        0000 |00\   /00| 0000        -->
-<!--        0000  O000-000O  0000        -->
-<!--        \000| \O00000O/ |000/        -->
-<!--         O000   \O0O/   000O         -->
-<!--         |000     -     000|         -->
-<!--         O000           000O         -->
-<!--        /000|           |000\        -->
-<!--        000O             O000        -->
-<!--        \OO/             \OO/        -->
+<!--         /OOOOO\     /OOOOO\            /OOOOOOOOOOOOOO\          -->
+<!--        /O00000O|   |O00000O\           \OOOOOO0000OOOO/          -->
+<!--        0000 |00\   /00| 0000                \000000/             -->
+<!--        0000  O000-000O  0000                  \000O              -->
+<!--        \000| \O00000O/ |000/                   O00O              -->
+<!--         O000   \O0O/   000O                   |000|              -->
+<!--         |000     -     000|                   O00O               -->
+<!--         O000           000O       OOOOOO-    /00O|               -->
+<!--        /000|           |000\      \O000|   --000O                -->
+<!--        000O             O000       \OO00OOO000OO|                -->
+<!--        \OO/             \OO/         -OO0000OO-                  -->
 
 <!DOCTYPE html>
 <html>
@@ -258,10 +258,10 @@
   </head>
   <body>
 
-    <h1 id="title">◁ Namika: Beyond the Text ▷</h1>
+    <h1 id="title">◁ Generation Error! ▷</h1>
 
     <div id="quiz">
-      <h2>Question 1</h2>
+      <h2>Connect to the Internet</h2>
       <p>Unable to load quiz ): Check your connection.</p>
       <input type="radio" name="q1" value="b" id="q1b" />
       <label for="q1a">Hmmm</label>
@@ -310,7 +310,7 @@
       window.onload = initiate();
 
       function initiate() {
-        correctAnswers = ["a"];
+        correctAnswers = ["m"];
         fetch(`${preset[0]}preset.json`)
         .then(response => response.json())
         .then(data => {
@@ -354,12 +354,6 @@
                       document.body.appendChild(updator);
                       updator.children[0].click();
                     });
-
-                  //updator.href = `${preset[0]}update.html`;
-                  //updator.download = 'schreiberin.html';
-                  //document.body.appendChild(updator);
-                  //updator.click();
-                  //document.body.removeChild(updator);
                 }
               }
             })
