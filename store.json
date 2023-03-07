@@ -1,12 +1,21 @@
 {
     "items": [
+        {
+          "item": "🐻‍❄️Gummibär",
+          "description": "but... it's... online?",
+          "storefront": {
+            "price": 5,
+            "value": 0,
+            "rarity": "unreal"
+          }
+        },
       {
         "item": "🪙8-bit Coin",
         "description": "00100100",
         "storefront": {
-            "price": 8,
-            "value": 8,
-            "rarity": "common"
+          "price": 8,
+          "value": 8,
+          "rarity": "common"
         }
       },
       {
@@ -16,6 +25,15 @@
           "price": 15,
           "value": 10,
           "rarity": "common"
+        }
+      },
+      {
+        "item": "🎩DappHerr Hat",
+        "description": "A stylish piece to add to your collection",
+        "storefront": {
+          "price": 20,
+          "value": 10,
+          "rarity": "uncommon"
         }
       },
       {
@@ -29,12 +47,21 @@
         },
         {
             "item": "😎Deutsch Xtrem!",
-            "description": "That is quite a few points!",
+            "description": "Centa-Superstar",
             "storefront": {
-              "price": 50,
-              "value": 25,
-              "rarity": "rare"
+              "price": 100,
+              "value": 30,
+              "rarity": "legendary"
             }
-          }
+        },
+        {
+            "item": "👾Hacker",
+            "description": "document.coins += 1000",
+            "storefront": {
+              "price": 1000,
+              "value": 0,
+              "rarity": "legendary"
+            }
+        }
     ]
 }
